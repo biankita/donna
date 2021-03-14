@@ -1,0 +1,177 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+.header {
+  background-color: #fff4f8;
+  background: linear-gradient(to bottom right, #ffd2e2, #f5a8c3);
+  height: 75vh;
+  text-align: center;
+  position: relative;
+}
+
+.header__heading--main {
+  margin: 0 auto;
+  padding-top: 10rem;
+  background-image: linear-gradient(to right, #fc5b5c, #ff3980);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Sacramento", cursive;
+  font-size: 9.5rem;
+  width: 30%;
+}
+
+.header__heading--sub {
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 100;
+  background-image: linear-gradient(to right, #fc5b5c, #ff3980);
+  color: transparent;
+  -webkit-background-clip: text;
+  width: 30%;
+}
+
+[class*="imgball"] {
+  position: absolute;
+}
+
+.header__imgball--top {
+  height: 7rem;
+  width: auto;
+  top: 3rem;
+  right: 10%;
+}
+
+.header__imgball--bottom {
+  height: 7rem;
+  width: auto;
+  left: 8%;
+}
+
+.header__imgHouse {
+  height: 28rem;
+  width: auto;
+  position: relative;
+  top: 3rem;
+  /* position: absolute;
+  bottom: 0; */
+  /* left: 31%; */
+}
+
+.main{
+    background-color: #fff4f8;
+}
+
+.main__content,
+.secion__content{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.main {
+  padding-top: 15rem;
+}
+
+.main___photo {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 500px;
+  border: 2px solid #ff3980;
+}
+
+.section {
+  padding: 5rem 0 0;
+}
+
+/* Titles */
+.section__title, .section__trick-title {
+    font-weight: 300;
+}
+
+.section__title {
+  color: #ff3980;
+  font-size: 5rem;
+}
+
+.emoji {
+    font-size: 2rem;
+}
+
+.section{
+    background-color: #fff;
+}
+
+.section__trick {
+    margin-bottom: 7rem;
+}
+
+[class*="trick--image"]{
+    width: 15rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.section__trick--image1 {
+    float: left;
+    margin-right: 3rem;
+}
+
+.section__trick--image2 {
+    float: right;
+    margin-left: 3rem;
+} 
+
+.section__trick-title{
+    font-size: 2.5rem;
+    color:#ff9f04;
+    text-align: left;
+}
+
+.section__trick--p{
+    text-align: left;
+}
+
+footer {
+    background-color: #ff3980;
+    height: 10rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.footer_p {
+    color: #fff;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1350px){
+    .header__heading--main,
+    .header__heading--sub {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .header__heading--main {
+        font-size: 8rem;
+    }
+
+    .main__content,
+    .secion__content{
+    width: 80%;
+    }
+
+    /* .header__imgHouse {
+        height: 20rem;
+        width: auto;  
+    } */
+
+}
